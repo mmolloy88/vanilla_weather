@@ -1,0 +1,98 @@
+/* pallet */
+/* 
+    KHAKI WEB(GRAY) - #B2AA8E
+    OXFORD BLUE - #0C1B33
+    BYZANTIUM - #7A306C
+    LIGHT SEA GREEN -#03B5AA
+*/
+
+body {
+  max-width: 410px;
+}
+
+#theme-background {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+}
+
+.dot:hover {
+  cursor: pointer;
+}
+
+.response-container {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temperature-reading {
+  font-size: 50px;
+}
+
+footer {
+  background-color: #b2aa8e;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-black {
+  background-color: black;
+}
+
+.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dark-theme {
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+.theme-white {
+  background-color: white;
+}
+
+.theme-blue {
+  background: rgb(156, 183, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(156, 183, 217, 1) 49%,
+    rgba(31, 113, 194, 1) 100%
+  );
+}
+
+.theme-orange {
+  background: rgb(246, 148, 61);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 148, 61, 1) 29%,
+    rgba(88, 46, 4, 1) 90%
+  );
+  color: white;
+}
